@@ -1,0 +1,81 @@
+body{
+    background: #008888;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;    
+}
+
+.slide-card{
+    height: 85vh;
+    width: 80vw;
+    background-color: #fdfdfd;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.60);
+    justify-content: center;
+}
+
+ /* .overlay {
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 top: 0;
+	 bottom: 0;
+	 left: 0;
+	 right: 0;
+	 background: linear-gradient(to bottom, rgba(14, 29, 51, 0.8), rgba(14, 29, 51, 0.2));
+} */
+ .hero-slider {
+	 width: 100%;
+	 height: 100vh;
+	 overflow: hidden;
+}
+
+.carousel-cell>img{
+	justify-content: center;
+	height: 80vh;
+	width: 40vw;
+}
+
+.carousel-cell>video{
+	height: 85vh;
+    width: 81vw;
+}
+ .hero-slider .carousel-cell {
+	 width: 100%;
+	 height: 100%;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-position: center;
+}
+ .hero-slider .carousel-cell .inner .btn:hover {
+	 background: #000;
+	 color: #000;
+}
+ .hero-slider .flickity-prev-next-button {
+	 width: 100px;
+	 height: 100px;
+	 background: transparent;
+}
+ .hero-slider .flickity-prev-next-button:hover {
+	 background: transparent;
+}
+ .hero-slider .flickity-prev-next-button .arrow {
+	 fill: #f00;
+}
+ .hero-slider .flickity-page-dots {
+	 bottom: 400px;
+}
+ .hero-slider .flickity-page-dots .dot {
+	 width: 30px;
+	 height: 4px;
+	 opacity: 1;
+	 background: #000;
+	 border: 0 solid white;
+	 border-radius: 0;
+}
+ .hero-slider .flickity-page-dots .dot.is-selected {
+	 background: #fff;
+	 border: 0 solid #f00;
+}
+ 
